@@ -1,0 +1,98 @@
+/* Colors and fonts */
+body {
+    background: rgb(153, 169, 143);
+    color: rgb(255, 248, 222);
+    font-family: 'Helvetica';
+    font-weight: 300;
+    font-size: size 16px;
+}
+h1, h2, h3 {
+	font-family: Courier;
+}
+h1 {
+	color: rgb(255, 248, 222);
+	font-family: 'Courier';
+	font-size: 32px;
+}
+h2 {
+	color: rgb(255, 248, 222);
+	font-family: 'Courier';
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(255, 248, 222);
+	font-weight: bold;
+}
+a:hover {
+	color: rgb(214, 232, 219);
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+
+}
+
+.card-white {
+	background-color: #background color of the containers;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-red {
+	background-color: #background color of the button;
+	color: #Text color of the button;
+	padding: 12px 17px;
+	border-radius: 5px;
+}
+
+.btn-red:hover {
+	background-color: #background color of the button when cursor passes over it;
+	color: #text color when cursor passes over it;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(190, 190, 190);
+}
+
+.list-inline i:hover {
+	color: #color of the logos when the cursor passes over them;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
